@@ -1,0 +1,256 @@
+/* Import Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rambla&display=swap');
+/* font-family: 'Rambla', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Mogra&display=swap');
+/* font-family: 'Mogra', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+/* font-family: 'Gorditas', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+/* font-family: 'Ewert', cursive; */
+
+/* --------------------------------------- */
+/* Defining Colors Variables */
+
+:root {
+	--light-blue-gray: #c8d6e5;
+	--dark-gray: #222f3e;
+	--red: #ee5253;
+	--light-red: #ff6b6b;
+	--yellow: #ff9f43;
+	--light-yellow: #feca57;
+	--blue: #2e86de;
+	--light-blue: #54a0ff;
+	--green: #10ac84;
+	--light-green: #1dd1a1;
+	--sky-blue: #0abde3;
+	--light-sky-blue: #48dbfb;
+	--pink: #f368e0;
+	--dark-pink: #be2edd;
+	--x-light-blue: #c7ecee;
+	--white1: #ecf0f1;
+
+
+	--box-shadow: 0 4px 8px 0 var(--gray), 0 6px 20px 0 var(--gray);
+}
+
+
+/* --------------------------------------- */
+/* Globals Properties */
+
+
+
+/* card colors */
+
+/* color */
+
+.aflr_red{
+	background-color: rgba(214, 48, 49,0.7) !important;
+}
+
+.bgms_gray{
+	background-color: rgba(45, 52, 54, 0.5) !important;
+}
+
+.chnt_pink{
+	background-color: rgba(232, 67, 147,1.0) !important;
+}
+
+.diou_blue{
+	background-color: rgba(9, 132, 227,1.0) !important;
+}
+
+.ejpv_green{
+	background-color: rgba(39, 174, 96,1.0) !important;
+}
+
+.fkqw_blue2{
+	background-color: rgba(108, 92, 231,1.0) !important;
+}
+
+.glrx_yellow{
+	background-color: rgba(253, 203, 110,1.0) !important;
+}
+
+.hmsy_light-blue{
+	background-color: rgba(0, 206, 201,1.0) !important;
+}
+
+.intz_violet{
+	background-color: rgba(142, 68, 173,1.0) !important;
+}
+
+.joua_light-green{
+	background-color: rgba(22, 160, 133,1.0) !important;
+}
+
+.notextselect{
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.font-ubuntu{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.popup-bg{
+	background-color: rgba(45, 52, 54, 0.8);
+	min-height: 100vh;
+	min-width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 200;
+}
+
+
+
+
+
+
+
+/* Static Pages  CSS */
+
+.page-container{
+	background-color: rgba(236, 240, 241,1.0);
+	padding: 40px 5% 20px 5%;
+}
+
+.page-h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	color: rgba(44, 62, 80,1.0);
+	font-size: 30px;
+}
+
+.page-h2{
+	font-family: 'Ubuntu', sans-serif;
+	color: rgba(44, 62, 80, 1);
+	font-size: 26px;
+	margin-top: 30px;
+}
+
+.page-p-head{
+	padding-left: 5px;
+	margin: 0;
+}
+
+.page-divider{
+	min-height: 2px;
+	background-color: var(--red);
+	margin: 18px 0;
+}
+
+.page-data-container{
+	padding: 10px;
+}
+
+.page-txt1{
+	display: block;
+	margin-bottom: 14px;
+}
+
+.page-txt2{
+	font-size: 20px;
+}
+
+.page-txt-red{
+	color: var(--red);
+}
+
+.page-ul{
+
+}
+
+.page-li{
+
+}
+
+.page-li:hover{
+	color: var(--red);
+}
+
+.page-anchor{
+	color: var(--blue);
+	transition: 0.2s;
+}
+
+.page-anchor:hover{
+	color: var(--red);
+	text-decoration: none;
+}
+
+.page-contact-txt{
+	color: var(--blue);
+	cursor: pointer;
+}
+
+.app-profile-card{
+	display: inline-block;
+	max-width: 320px;
+	max-height: 550px;
+	overflow: hidden;
+	border: solid 2px var(--pink);
+	position: relative;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: var(--box-shadow);
+}
+
+.app-profile-card-image-cont{
+	/* width: 280px;
+	height: 280px; */
+}
+
+.app-profile-card-image{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.app-card-user-name{
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 5px 0 0 0;
+	padding: 4px 0;
+	text-align: center;
+	display: block;
+	background-color: var(--pink);
+	font-size: 1.4em;
+	border-radius: 5px;
+	color: white;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.page-flex-2-sec{
+	display: flex;
+}
+
+.page-flex-2-right-cont{
+	margin-left: 10px;
+}

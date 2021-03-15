@@ -1,0 +1,143 @@
+
+
+.login{
+
+}
+
+.login-container{
+
+}
+
+.background{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+    filter: grayscale(60%);
+}
+
+.background-blue{
+    position: absolute;
+    top: 0;
+    background-color: #22a6b3;
+    opacity: 0.4;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.login-form{
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 310px;
+    min-width: 500px;
+    background-color: #ecf0f1;
+    opacity: 0.85;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 25px 10px #2c3e50;
+}
+
+.login-header{
+    position: relative;
+}
+
+.login-header-image{
+    position: absolute;
+    top: -40px;
+    background-color: #ecf0f1;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.login-header-image img{
+    min-width: 80px;
+    max-width: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.login-header-image img:hover{
+    transform: scale(1.08);
+}
+
+.login-form-box{
+    padding: 10px 20px 0 20px;
+    padding-top: 15px;
+}
+
+.login-acc-text{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.input-box{
+    margin: 5px 2px;
+    padding-bottom: 5px;
+}
+
+.input-text{
+    padding: 0;
+    margin: 4px 0;
+    cursor: pointer;
+}
+
+.ltfai{
+    margin: 0 5px 0 0;
+    padding: 0 1px 0 0;
+}
+
+.login-inp-username, .login-inp-password{
+    width: 100%;
+    padding: 4px 8px;
+}
+
+.submit-btn-block{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.login-submit-btn{
+    border: solid 1px #f39c12;
+    border-radius: 4px;
+    outline: none;
+    padding: 5px 35px;
+    background-color: #3498db;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.create-acc-link{
+    padding: 0 20px 0 0;
+    margin: 0;
+    cursor: pointer;
+    color: #3498db;
+    text-align: right;
+    display: block;
+}
+
+.create-acc-link:hover{
+    color: #e74c3c;
+}
+
+.home-link{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    text-decoration: none;
+    color: white;
+    transform: translate(-50%);
+}
+
+.home-link:hover{
+    text-decoration: none;
+    color: #3498db;
+}
+
+.login-home-icon{
+    margin: 0 5px;
+}

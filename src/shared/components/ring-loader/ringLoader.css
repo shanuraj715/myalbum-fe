@@ -1,0 +1,22 @@
+
+
+.ring-loader{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgba(44, 58, 71, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    position: relative;
+}
+
+.ring-loader-image{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

@@ -1,0 +1,30 @@
+
+
+.gh-divider {
+    display: flex;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.gh-divider:before, .gh-divider:after {
+    content: "";
+    flex: 1;
+}
+
+.gh-gradient {
+    align-items: stretch;
+    margin: 1em 0;
+    height: 2em;
+    line-height: 2em;
+    color: white;
+    /* background: #353b48; */
+    background-image: linear-gradient(to right, transparent, #353b48, #353b48, transparent);
+}
+
+.gh-gradient:before {
+    /* background: linear-gradient(to right, rgba(25,85,1, .2), #353b48); */
+}
+
+.gh-gradient:after {
+    /* background: linear-gradient(to left, white, #353b48); */
+}

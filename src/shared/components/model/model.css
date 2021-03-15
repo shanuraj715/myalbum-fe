@@ -1,0 +1,83 @@
+
+
+.app-model-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: 560;
+    background-color: rgba(47, 54, 64,0.5);
+}
+
+.app-model{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 400px;
+    max-width: 600px;
+    background: #ecf0f1;
+    border: solid 1px var(--dark-gray);
+    border-radius: 5px;
+}
+
+.app-model-head{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background: #2f3640;
+}
+
+.app-model-head-text{
+    flex-grow: 2;
+    color: white;
+    padding: 4px 10px;
+    font-size: 1.1em;
+}
+
+.app-model-close-icon{
+    margin-right: 10px;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.app-model-close-icon:hover{
+    color: var(--red);
+}
+
+.app-model-body{
+    padding: 10px;
+}
+
+.app-model-message{
+
+}
+
+.app-model-btn-container{
+    text-align:right;
+    padding-right: 15px;
+}
+
+.app-model-btn{
+    margin: 8px 4px;
+    min-width: 70px;
+    border-radius: 4px;
+    color: white;
+}
+
+.app-model-btn:focus{
+    outline: none;
+}
+
+.app-model-btn-ok{
+    border: solid 1px var(--dark-gray);
+    background-color: var(--blue)
+}
+
+.app-model-btn-close{
+    border: solid 1px var(--dark-gray);
+    background-color:var(--red);
+}

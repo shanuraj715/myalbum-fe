@@ -1,0 +1,45 @@
+
+
+.card-container{
+    position: relative;
+}
+
+.ea-files-head{
+    display: flex;
+    padding: 4px 4%;
+    margin-bottom: 5px;
+    background-color: rgba(170, 166, 157,1.0);
+}
+
+.ea-files-ht{
+    font-size: 18px;
+    font-weight: bold;
+    flex-grow: 2;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: var(--dark-gray);
+}
+
+.ea-files-hi{
+    margin-right: 10px;
+}
+
+.ea-files-count-text{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.ea-files-delete-btn{
+    padding: 1px 10px;
+    border: solid 2px var(--yellow);
+    border-radius: 4px;
+    background-color: var(--red);
+    color: white;
+    margin-left: 10px;
+}
+
+.ea-btn-icon{
+    margin-right: 6px;
+}

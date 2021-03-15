@@ -1,0 +1,86 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fu-selected-files-prev-cont{
+    padding: 10px 0;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.ua-back-btn-cont{
+    background-color: #ecf0f1;
+    padding: 1% 1%;
+}
+
+.ua-back-btn{
+    padding: 4px 12px;
+    border: solid 2px var(--yellow);
+    color: white;
+    background-color: var(--dark-gray);
+    border-radius: 5px;
+}
+
+.ua-back-btn-icon{
+    margin-right: 10px;
+}
+
+.fu-menu-cont{
+    padding: 8px 0;
+    text-align: center;
+    background-color: rgba(75, 75, 75,1.0);
+    color: white;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.fu-uploading-file-text{
+    padding: 0 15px;
+    text-align: left;
+    display: inline-block;
+    min-width: 450px;
+    max-width: 550px;
+}
+
+.fu-files-count{
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.fu-files-uploaded{
+
+}
+
+.fu-total-files{
+
+}
+
+.fu-uploaded-text{
+
+}
+
+.fu-btns-cont{
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.fu-upload-btn{
+    margin: 0 6px;
+    border: solid 1px white;
+    border-radius: 4px;
+    background-color: var(--blue);
+    color: white;
+    padding: 2px 15px;
+}
+
+.fu-remove-all-btn{
+    margin: 0 6px;
+    border: solid 1px var(--blue);
+    border-radius: 4px;
+    background-color: var(--red);
+    color: white;
+    padding: 2px 15px;
+}
+

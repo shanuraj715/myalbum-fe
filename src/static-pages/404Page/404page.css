@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');;
+
+
+.err404-main-cont{
+    background: linear-gradient(45deg, #8500ff, #5acaff);
+    height: 100vh;
+    position: relative;
+}
+
+#err404-container{
+    position: absolute;
+    top: 5%;
+    left:5%;
+    right: 5%;
+    bottom: 5%;
+    border-radius: 10px;
+
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #151729;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.err404-content{
+    max-width: 600px;
+    text-align: center;
+}
+
+.err404-content h2{
+    font-size: 18vw;
+    color: #2d3436;
+    line-height: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+.err404-content h2:before{
+    content: "404";
+    opacity: 1;
+    position: absolute;
+    color: #ecf0f1;
+    overflow: hidden;
+    animation: err404Animate 2s forwards;
+}
+
+@keyframes err404Animate{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 1em;
+    }
+}
+
+.err404-content h4{
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #111;
+    background: #fff;
+    font-weight: 300;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.err404-content p{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.err404-content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #ff0562;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    border-bottom: 4px solid #d00d56;
+}

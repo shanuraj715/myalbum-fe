@@ -1,0 +1,60 @@
+
+
+.add-album-container{
+    
+}
+
+.add-album-box{ 
+    min-width: 450px;
+    /* min-height: 300px; */
+    padding: 20px 15px 8px 15px;
+}
+
+.add-album-title{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-album-form{
+    margin: 10px 0;
+}
+
+.add-album-form-text{
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.add-album-inpbx{
+    padding: 4px 8px;
+    border: solid 1px var(--dark-gray);
+    border-radius: 4px;
+    width: 70%;
+}
+
+.add-album-inpbx:focus{
+    outline: red;
+    border: solid 1px red;
+}
+
+.add-album-sub-btn-block{
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.add-album-sub-btn{
+    border: none;
+    outline: none;
+    background-color: var(--blue);
+    padding: 6px 22px;
+    border-radius: 4px;
+    color: white;
+}
+
+
+
+.add-album-spinner{
+    flex-grow: 2;
+    text-align: center;
+}

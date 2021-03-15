@@ -1,0 +1,25 @@
+.text-divider {
+    display: flex;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.text-divider:before, .text-divider:after {
+    content: "";
+    flex: 1;
+}
+
+.text-divider-line {
+    align-items: center;
+    margin: 1em 1em;
+}
+
+.text-divider-line:before, .text-divider-line:after {
+    height: 1px;
+    margin: 0 0.4em;
+}
+
+
+.text-divider-one-line:before, .text-divider-one-line:after {
+    background-image: linear-gradient(to right, #c0392b, #2980b9, #c0392b);
+}

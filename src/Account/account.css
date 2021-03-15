@@ -1,0 +1,365 @@
+
+
+.profile-page-cont{
+    padding: 20px 8%;
+    text-align: center;;
+    background-color: rgba(236, 240, 241, 0.7);
+}
+
+.profile-left{
+    text-align: initial;
+    margin-right: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cover-image-edit-button{
+    position: absolute;
+    display: none;
+    padding: 2px 15px;
+    bottom: 10px;
+    right: 10px;
+    border: solid 1px var(--pink);
+    font-size: 1em;
+    border-radius: 3px;
+    background-color: var(--dark-gray);
+    color: white;
+    transition: 0.2s;
+}
+
+.profile-data-box{
+
+}
+
+.profile-cover-img-container{
+    min-height: 250px;
+    position: relative;
+    background: linear-gradient(to bottom, #ecf0f1, #ecf0f1, #ecf0f1, #bdc3c7);
+}
+
+.profile-cover-img-container:hover .cover-image-edit-button{
+    display: initial;
+    animation: cover_img_btn 0.1s ease-in;
+}
+
+@keyframes cover_img_btn{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.cover-image{
+
+}
+
+.img-box{
+    max-width: 160px;
+    min-height: 160px;
+    border-radius: 50%;
+    display: inline-block;
+    max-height: 160px;
+    min-width: 160px;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 80%);
+}
+
+.user-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.user-image-edit-btn{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: rgba(45, 52, 54, 0.6);
+    padding: 4px 8px;
+    color: white;
+    transform: translate( -50%, 0);
+    border-radius: 50%;
+    max-width: 40px;
+    display: none;
+}
+
+.img-box:hover .user-image-edit-btn{
+    display: initial;
+}
+
+.user-profile-details{
+    padding: 50px 5px 0 5px;
+}
+
+.user-bio{
+    padding: 10px 4%;
+    display: block;
+    text-align: justify;
+}
+
+.profile-user-name{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-user-name span:nth-child(2){
+    font-size: 0.8em;
+    margin-left: 15px;
+}
+
+.profile-username{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.profile-btn-container{
+    text-align: right;
+    padding: 0 30px;
+    font-size: 1em;
+}
+
+.profile-bio-edit-btn{
+    padding: 2px 10px;
+    margin: 0 5px;
+    border: solid 1px var(--pink);
+    border-radius: 3px;
+    color: white;
+    background: var(--blue);
+}
+
+.profile-settings-btn{
+    padding: 2px 10px;
+    margin: 0 5px;
+    border: solid 1px var(--pink);
+    border-radius: 3px;
+    color: white;
+    background: var(--dark-gray);
+}
+
+
+
+
+
+
+
+
+
+.profile-ua-data-cont{
+    min-height: 250px;
+    background: linear-gradient(to bottom, #ecf0f1, rgba(189, 195, 199, 0.5));
+}
+
+.ua-albums-tb-cont{
+    display: flex;
+    border: solid 1px var(--gray);
+    border-radius: 5px;
+}
+
+.ua-al-tb{
+    border: none;
+    padding: 8px 15px;
+    flex-grow: 2;
+    background-color: transparent;
+}
+
+.ua-al-tb:hover{
+    background-color: var(--pink);
+    color: white;
+}
+
+.up-al-cont{
+    padding: 20px 10px;
+    /* text-align: center; */
+}
+
+.up-al-card{
+    background-color: rgba(247, 241, 227,1.0);
+    display: inline-block;
+    max-width: 200px;
+    border-radius: 5px;
+    border: solid 1px var(--dark-gray);
+    width: 200px;
+    overflow: hidden;
+    margin: 5px 10px;
+}
+
+.up-al-card p{
+    padding: 10px 5px 10px 10px;
+    margin: 0;
+}
+
+
+.user-more-cont{
+    padding: 0 5%;
+}
+
+.user-more-row{
+    display: flex;
+    padding: 5px 0;
+}
+
+.user-more-opt{
+    min-width: 150px;
+}
+
+.ua-hobbies-cont{
+    text-align:justify;
+}
+
+.ua-hobby{
+    padding: 1px 8px;
+    display: inline-block;
+    border: solid 1px var(--dark-gray);
+    margin: 2px 10px 2px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ua-hobby:hover{
+    background: var(--dark-gray);
+    color: white;
+    border-color: var(--yellow);
+    
+}
+
+.usp-cont{
+
+}
+
+.usp-link{
+    padding: 4px;
+    font-size: 1.05em;
+    margin: 2px 5px 2px 0;
+    display: inline-block;
+    min-width: 32px;
+    max-width: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.usp-link-facebook{
+    color: #1877f2;
+    border: solid 1px #1877f2;
+}
+
+.usp-link-facebook:hover{
+    background-color: #1877f2;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-instagram{
+    color: #C13584;
+    border: solid 1px #C13584;
+}
+
+.usp-link-instagram:hover{
+    background-color: #C13584;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-twitter{
+    color: #00acee;
+    border: solid 1px #00acee;
+}
+
+.usp-link-twitter:hover{
+    background-color: #00acee;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-whatsapp{
+    color: #4fce5d;
+    border: solid 1px #4fce5d;
+}
+
+.usp-link-whatsapp:hover{
+    background-color: #4fce5d;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-mobile{
+    color: #84817a;
+    border: solid 1px #84817a;
+}
+
+.usp-link-mobile:hover{
+    background-color: #84817a;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-email{
+    color: #FBBC05;
+    border: solid 1px #FBBC05;
+}
+
+.usp-link-email:hover{
+    background-color: #FBBC05;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-linkedin{
+    color: #0e76a8;
+    border: solid 1px #0e76a8;
+}
+
+.usp-link-linkedin:hover{
+    background-color: #0e76a8;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-github{
+    color: #4078c0;
+    border: solid 1px #4078c0;
+}
+
+.usp-link-github:hover{
+    background-color: #4078c0;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+.usp-link-youtube{
+    color: #FF0000;
+    border: solid 1px #FF0000;
+}
+
+.usp-link-youtube:hover{
+    background-color: #FF0000;
+    color: white;
+    border: solid 1px var(--dark-gray);
+}
+
+
+
+
+
+
+
+.profile-right{
+    min-width: 24%;
+    width: 320px;
+    max-width: 450px;
+    display: inline-block;
+}

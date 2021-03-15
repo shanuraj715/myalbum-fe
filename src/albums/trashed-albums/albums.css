@@ -1,0 +1,15 @@
+.albums-container{
+	display: flex;
+}
+
+.album-container{
+	padding: 20px 0;
+	/*text-align: center;*/
+}
+
+.album-left-area{
+	display: inline-block;
+	flex-grow: 2;
+	background: var(--white1);
+	padding: 10px 15px;
+}

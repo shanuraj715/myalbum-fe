@@ -1,0 +1,29 @@
+
+
+
+.ribbon-divider {
+    display: flex;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.ribbon-divider:before, .ribbon-divider:after {
+    content: "";
+    flex: 1;
+}
+
+.ribbon-donotcross {
+    overflow: hidden;
+    align-items: center;
+    background: #ffd500;
+    color: black;
+    height: 2em;
+    line-height: 2em;
+}
+
+.ribbon-donotcross:before, .ribbon-donotcross:after {
+    background: white;
+    padding: 5% 0;
+    height: 0;
+    transform: rotate(45deg);
+}

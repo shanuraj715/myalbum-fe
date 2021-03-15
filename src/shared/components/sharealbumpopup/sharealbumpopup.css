@@ -1,0 +1,153 @@
+
+
+.share-album-container{
+    
+}
+
+.share-album-box{
+    min-width: 660px;
+    max-width: 690px;
+    /* min-height: 300px; */
+    padding: 20px 15px 8px 15px;
+}
+
+.share-album-title{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.share-album-shared-people{
+    padding: 5px 5px 10px 5px;
+    background-color: rgba(44, 58, 71, 0.1);
+    border-radius: 5px;
+}
+
+.sa-plist-head{
+    padding: 0;
+    margin: 5px 0 10px 0;
+}
+
+.sa-plist-cont{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.sa-pname{
+    font-size: 14px;
+    display: inline-block;
+    padding: 2px 6px;
+    cursor: pointer;
+    margin: 4px;
+    background-color: var(--white);
+    border-radius: 6px;
+    border: solid 1px rgba(202, 211, 200,1.0);
+}
+
+/* .sa-pname:nth-child(1){
+    margin-left: 0;
+} */
+
+.sa-head-icon{
+    margin: 0 12px 0 5px;
+    color: var(--blue);
+}
+
+.shared-people-remove-icon{
+    margin: 4px 0 0 10px;
+    color: var(--red);
+    display: none;
+}
+
+.sa-pname:hover .shared-people-remove-icon{
+    display: inline-block;
+}
+
+
+.share-album-form{
+    margin: 10px 0;
+}
+
+.share-album-inp-cont{
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.share-album-inp-bx{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+}
+
+.sa-srch-btn{
+    margin: 0 15px 0 5px;
+    line-height: 30px;
+    margin-top: 12px;
+    font-size: 20px;
+}  
+
+.sa-srch-btn:hover{
+    color: var(--red);
+    cursor: pointer;
+}  
+
+.sa-friends-list-cont{
+    overflow-x: hidden;
+    padding: 2px;
+    min-width: 100%;
+    border: solid 1px var(--dark-gray);
+    max-height: 150px;
+    overflow-y: auto;
+    border-radius: 4px;
+    
+}
+
+.sa-friend-row{
+    width: 100%;
+    display: block;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+.sa-friend-row:hover{
+    background-color: var(--light-blue-gray);
+}
+
+.sa-friend-row:focus{
+    outline: none;
+}
+
+.sa-done-btn{
+    margin: 10px 0 5px 0;
+    text-align: right;
+}
+
+.sa-done{
+    border: none;
+    outline: none;
+    padding: 4px 25px;
+    color: white;
+    border-radius: 4px;
+    background-color: var(--blue);
+}
+
+.sa-done:focus{
+
+}
+
+.sa-not-shared-text{
+    padding: 0;
+    margin: 30px 0 0 0;
+    color: var(--red);
+    font-weight: bold;
+    padding-left: 25px;
+
+}

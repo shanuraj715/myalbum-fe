@@ -1,0 +1,61 @@
+
+
+.classic-image-card{
+    margin: 6px;
+    display: inline-block;
+    min-width: 10rem;
+    width: 10.5rem;
+    height: 10.5rem;
+    max-width: 10.5rem;
+    min-height: 10.5rem;
+    max-height: 10.5rem;
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #636e72;
+    position: relative;
+    border-radius: 3px;
+    transition: 0.1s;
+}
+
+.classic-image-card:hover{
+    transform: scale(1.01);
+}
+
+.classic-image-card:nth-child(8n+1):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #d63031;
+}
+
+.classic-image-card:nth-child(8n+2):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #0984e3;
+}
+
+.classic-image-card:nth-child(8n+3):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #f1c40f;
+}
+
+.classic-image-card:nth-child(8n+4):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #8e44ad;
+}
+
+.classic-image-card:nth-child(8n+5):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #d35400;
+}
+
+.classic-image-card:nth-child(8n+6):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #16a085;
+}
+
+.classic-image-card:nth-child(8n+7):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #FC427B;
+}
+
+.classic-image-card:nth-child(8n+8):hover{
+    box-shadow: 0 4px 8px 0 #636e72, 0 6px 20px 0 #27ae60;
+}
+
+.classic-image{
+    max-width: 10rem;
+    max-height: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}

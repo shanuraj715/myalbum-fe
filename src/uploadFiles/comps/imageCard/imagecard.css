@@ -1,0 +1,138 @@
+
+
+.file-upload-image-box{
+    display: inline-block;
+    position: relative;
+    min-width: 156px;
+    max-width: 156px;
+    padding: 3px;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 1s;
+    background-color: #ecf0f1;
+    border: solid 1px var(--dark-gray);
+    margin: 10px;
+    box-shadow: 0 2px 4px 0 var(--gray), 0 5px 10px 0 var(--gray);
+}
+
+.file-upload-box{
+    display: inline-block;
+    max-height: 150px;
+    min-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.fu-image{
+    margin: auto;
+    max-height: 150px;
+    max-width: 150px;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fu-image-progress{
+    margin: 3px 0;
+}
+
+.file-upload-image-box:hover .fu-image-card-close-btn{
+    display: inline-block;
+}
+
+.fu-image-card-close-btn{
+    position: absolute;
+    display: none;
+    /* display: inline-block; */
+    right: 5px;
+    top: 5px;
+    z-index: 10;
+    border-radius: 25%;
+    background-color: rgba(231, 76, 60, 0.8);
+    border: none;
+    padding: 0 4px;
+    transition: 0.2s;
+}
+
+.fu-image-card-close-btn:hover{
+    outline: none;
+    background-color: var(--red);
+    box-shadow: var(--box-shadow);
+}
+
+
+.fu-icbi{
+    color: white;
+}
+
+/* .pop_anim{
+    animation: ma_zoom 0.5s linear;
+} */
+
+@keyframes ma_zoom{
+    0%{
+        transform: scale(0.8);
+        opacity: 0;
+        display: none;
+    }
+    50%{
+        transform: scale(0.8);
+        opacity: 0;
+        display: initial;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 750px){
+    
+    .file-upload-image-box{
+        display: inline-block;
+        min-width: 126px;
+        max-width: 126px;
+        min-height: 150px;
+        max-height: 150px;
+        padding: 3px;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: #ecf0f1;
+        border: solid 1px var(--dark-gray);
+        margin: 5px;
+        box-shadow: 0 2px 4px 0 var(--gray), 0 3px 2px 0 var(--gray);
+    }
+
+    .file-upload-box{
+        display: inline-block;
+        max-height: 120px;
+        min-height: 120px;
+        min-width: 120px;
+        max-width: 120px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .fu-image{
+        margin: auto;
+        max-height: 150px;
+        max-width: 150px;
+        object-fit: contain;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .fu-image-progress{
+        margin-top: 6px;
+    }
+}

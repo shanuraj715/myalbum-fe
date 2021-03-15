@@ -1,0 +1,23 @@
+
+.cf-email-cont{
+    display: grid;
+    padding: 5px 10px;
+}
+
+.cf-email-list{
+    font-weight: bold;
+    cursor: pointer;
+    margin: 6px 0;
+}
+
+.contact-form-container{
+    /* padding: 25px 0; */
+}
+
+.contact-form{
+
+}
+
+.cf-email-cont-title{
+    color: var(--gray);
+}

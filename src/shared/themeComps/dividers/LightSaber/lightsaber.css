@@ -1,0 +1,38 @@
+
+
+
+.light-saber-divider {
+    display: flex;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #2f3640;
+}
+
+.light-saber-divider:before, .light-saber-divider:after {
+    content: "";
+    flex: 1;
+}
+
+.light-saber-line {
+    align-items: center;
+    margin: 1em 1em;
+}
+
+.light-saber-line:before, .light-saber-line:after {
+    height: 1px;
+    margin: 0 0.4em;
+}
+
+.light-saber-glow:before, .light-saber-glow:after {
+    height: 6px;
+    -webkit-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.light-saber-glow:before {
+    background: linear-gradient(to right, #ecf0f1, #2c3e50);
+}
+
+.light-saber-glow:after {
+    background: linear-gradient(to left, #ecf0f1, #2c3e50);
+}

@@ -1,0 +1,78 @@
+
+
+.va-container{
+    /* min-height: 250px; */
+    /* min-width: 100vw; */
+    background: #ecf0f1;
+    padding: 25px 0;
+}
+
+.va-head-cont{
+    padding: 10px 20px;
+}
+
+.va-h1{
+    font-size: 3em;
+    color: var(--red);
+}
+
+.va-p{
+    color: var(--dark-gray);
+}
+
+.va-inp-cont {
+    background: linear-gradient(to right, var(--gray), var(--pink), var(--red));
+    padding: 3px;
+    border-radius: 13px;
+    overflow: hidden;
+    min-width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+  
+
+.va-inp-block{
+    background: #ecf0f1;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.va-inp-text{
+    font-size: 1.5em;
+    flex-grow: 2;
+    padding: 8px 15px;
+    border: none;
+    border-right: none;
+    outline: none;
+    background: linear-gradient(to right, transparent, rgba(45, 52, 54,0.5));
+
+}
+
+.va-inp-text::placeholder{
+    color: rgba(41, 128, 185, 0.8);
+}
+
+.va-submit-button{
+    padding: 8px 30px;
+    font-size: 1.5em;
+    border-top-right-radius: 10px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-left: none;
+    color: rgba(236, 240, 241,1.0);
+    background-color:var(--blue);
+    transition: 0.5s;
+}
+
+.va-submit-button:focus{
+    outline: none;
+}
+
+.va-submit-button:hover{
+    /* background: linear-gradient(to right, rgba(45, 52, 54, 0.5), rgba(45, 52, 54, 0.3), rgba(45, 52, 54, 0.5)); */
+    background-color: var(--green);
+}
+
+

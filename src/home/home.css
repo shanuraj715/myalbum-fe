@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+.home-main-top-1{
+    background-color: #ecf0f1;
+    position: relative;
+    min-height: 200px;
+    border-bottom: solid 2px var(--pink);
+    background: radial-gradient(rgba(189, 195, 199, 0.5), #ecf0f1);
+}
+
+.home-top-container{
+    display: flex;
+    position: absolute;
+    min-width: 800px;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.home-top-img-block{
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.home-top-img-block:hover{
+    margin: 0 15px 0 10px;
+}
+
+.ht-img{
+    width: 100%;
+}
+
+.ht-text{
+    font-size: 45px;
+    display: block;
+    font-family: 'Gorditas', cursive;
+    color: var(--dark-gray);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ht-text:hover{
+    color: var(--pink);
+}
+
+.ht-text2{
+    font-size: 20px;
+    font-family: 'Reggae One', cursive;
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.ht-text2:hover{
+    color: var(--pink);
+}
+
+
+
+
+
+.home-feature-section{
+    min-height: 70vh;
+    background: rgba(236, 240, 241, 0.4);
+    display: flex;
+    padding: 2px 4%;
+}
+
+.h-feature-text-cont{
+    max-width: 70%;
+    /* width: 550px; */
+    min-width: 300px;
+    height: 100%;
+    padding-right: 1%;
+}
+
+.h-feature-h4{
+    font-size: 2.6em;
+    display: inline-block;
+    /* font-weight: bold; */
+    padding: 25px 1% 15px 1%;
+    color: var(--dark-gray);
+    font-family: 'Gorditas', cursive;
+    cursor: pointer;
+    text-shadow: 0 0 3px var(--pink);
+    transition: 0.2s;
+}
+
+.h-feature-desc{
+    font-family: 'Reggae One', cursive;
+    display: block;
+    padding: 0 7%;
+    text-align: justify;
+
+}
+
+.h-feature-img-cont{
+    flex-grow: 2;
+    padding: 15px;
+    max-width: 600px;
+    min-width: 55%;
+}
+
+.h-feature-img-block{
+
+}
+
+.h-feature-img{
+    width: 100%;
+}
+
+.h-start-btn-cont{
+    padding: 10px 0;
+    background-color: rgba(236, 240, 241, 0.4);
+    text-align: center;
+}
+
+.home-start-btn{
+    padding: 8px 30px;
+    font-family: 'Reggae One', cursive;
+    border: solid 2px var(--pink);
+    border-radius: 7px;
+    outline: none;
+    background: var(--blue);
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.home-start-btn:hover{
+    box-shadow: var(--box-shadow);
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+
+.home-divider-cont{
+    background: rgba(236, 240, 241, 0.4);
+    padding-top: 25px;
+}
+
+.home-ul li{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.home-ul li:hover{
+    color: var(--pink);
+}

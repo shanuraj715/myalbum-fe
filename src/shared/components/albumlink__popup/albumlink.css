@@ -1,0 +1,119 @@
+
+
+.get-album-link-container{
+    position: fixed;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px var(--gray);
+    background-color: #f7f1e3;
+    box-shadow: 1px 1px 15px 1px var(--dark-gray);
+    border-radius: 5px;
+    overflow: hidden;
+    animation: popup-anim 0.4s forwards;
+}
+
+.get-album-link-box{
+    min-width: 650px;
+    max-width: 650px;
+    /* min-height: 300px; */
+    padding: 20px 15px 8px 15px;
+}
+
+.get-al-title{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.gl-link-warning{
+    padding: 0;
+}
+
+.gl-link-warning-icon{
+    color: var(--red);
+    margin-right: 10px;
+}
+
+.get-al-link-area{
+    text-align: center;
+}
+
+.get-al-pop-hic{
+    margin: 0 10px 0 5px;
+}
+
+.get-al-link-area{
+    margin: 15px 0;
+    text-align: center;
+    display: grid;
+}
+
+.gl-loader{
+    min-width: 200px;
+    min-height: 10px;
+    display: inline-block;
+}
+
+.get-link-spinner{
+    margin: 0 15px;
+}
+
+.get-link-getting{
+    
+}
+
+.gl-link-block{
+    background-color: var(--white);
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: solid 1px var(--dark-gray);
+    display: flex;
+}
+
+.gl-link-text{
+    padding-right: 8px;
+    flex-grow: 2;
+}
+
+.gl-link-copy-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* vertical-align: baseline; */
+}
+
+.gl-link-copy-btn:focus{
+    outline: none;
+}
+
+.gl-link-copy-btn-icon{
+    transition: 0.2s;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.gl-link-copy-btn-icon:hover{
+    color: var(--blue)
+}
+
+.get-link-done-btn{
+    margin-top: 15px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.get-link-done{
+    background-color: var(--blue);
+    border: solid 1px var(--dark-gray);
+    outline: none;
+    color: var(--white);
+    padding: 4px 25px;
+    border-radius: 4px;
+}
+
+.get-link-done:focus{
+    outline: none;
+}

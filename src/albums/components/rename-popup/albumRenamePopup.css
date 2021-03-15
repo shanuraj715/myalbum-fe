@@ -1,0 +1,35 @@
+
+
+.rename-album-container{
+    /* position: initial !important; */
+    /* overflow: initial !important; */
+}
+
+.rename-album-box{
+    min-width: 460px;
+    max-width: 460px;
+}
+
+.rename-album-form-cont{
+    margin-bottom: 20px;
+}
+
+.ra-form-inp-text{
+    display: inline-block;
+    padding: 5px 0 10px 0;
+}
+
+.rename-doing-spinner{
+    min-height: 50px;
+    text-align: center;
+    transform: scale(0.7);
+}
+
+.rename-doing-process{
+
+}
+
+.rename-doing-text{
+    text-align: center;
+    margin-top: 10px;
+}

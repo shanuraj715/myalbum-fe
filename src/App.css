@@ -1,0 +1,322 @@
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup{
+	position: fixed;
+    z-index: 20;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px var(--gray);
+    background-color: #f7f1e3;
+    box-shadow: 1px 1px 15px 1px var(--dark-gray);
+    border-radius: 5px;
+    overflow: hidden;
+    animation: popup-anim 0.4s forwards;
+}
+
+@keyframes popup-anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.popup-title{
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup-padding{
+    padding: 20px 15px 8px 15px;
+}
+
+.popup-title-icon{
+    margin: 0 15px 0 8px;
+}
+
+.popup-inp-box{
+    padding: 4px 8px;
+    border: solid 1px var(--dark-gray);
+    border-radius: 4px;
+    width: 70%;    
+}
+
+.popup-btns-block{
+    margin: 20px 0 5px 0;
+    text-align: right;
+}
+
+.popup-done-btn{
+    border: none;
+    outline: none;
+    background-color: var(--blue);
+    padding: 6px 22px;
+    border-radius: 4px;
+    color: white;
+}
+
+.popup-done-btn:focus{
+    outline: none;
+}
+
+.popup-blue-btn{
+    border: none;
+    outline: none;
+    background-color: var(--blue);
+    padding: 6px 22px;
+    border-radius: 4px;
+    color: white;
+}
+
+.popup-blue-btn:focus{
+    outline: none;
+}
+
+.popup-red-btn{
+    border: none;
+    outline: none;
+    background-color: var(--red);
+    padding: 6px 22px;
+    border-radius: 4px;
+    color: white;
+}
+
+.popup-red-btn:focus{
+    outline: none;
+}
+
+.app-notification-container{
+    position: fixed;
+    top: 0;
+}
+
+.clr-red{
+    color: var(--red);
+}
+
+.fai-space{
+    margin: 0 12px 0 8px;
+}
+
+.ml-4{
+    margin-left: 4px;
+}
+
+.mr-4{
+    margin-right: 4px;
+}
+
+.ml-6{
+    margin-left: 4px;
+}
+
+.mr-6{
+    margin-right: 4px;
+}
+
+.ml-10{
+    margin-left: 4px;
+}
+
+.mr-10{
+    margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+/* forms */
+
+.form-container{
+    background-color: rgba(236, 240, 241,1.0);
+    display: flex;
+}
+
+.form-left-area{
+    min-width: 30%;
+    max-width: 55%;
+    overflow: hidden;
+    padding: 15px 25px;
+}
+
+.form-img-cont{
+    text-align: center;
+    padding: 25px 0;
+    margin: 15px 0;
+}
+
+.form-img{
+    width: 240px;
+}
+
+.form-left-text{
+    padding: 5px 10px;
+    text-align: justify;
+    color: var(--gray);
+}
+
+.form-divider{
+    min-height: 2px;
+    max-height: 2px;
+    background-color: var(--dark-gray);
+    max-width: 80%;
+    margin: 22px auto;
+}
+
+.form-right-area{
+    flex-grow: 2;
+    padding: 25px 12px;
+    margin-right: 3%;
+    min-width: 350px;
+}
+
+.form-inp-box{
+    display: block;
+    margin: 4px 0;
+    padding: 4px;
+}
+
+.form-inp-title{
+    padding: 4px 0;
+    margin: 0;
+}
+
+.form-inp{
+    width: 100%;
+    padding: 5px 8px;
+    border: solid 1px var(--light-blue);
+    outline: none;
+    border-radius: 5px;
+}
+
+.form-inp:focus{
+    outline: none;
+}
+
+.form-title{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.frm-inp-icon{
+    margin-right: 6px;
+    color: var(--gray);
+}
+
+.form-txt-area{
+    width: 100%;
+    min-height: 140px;
+    resize: none;
+    border: solid 1px var(--light-blue);
+    outline: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.form-txt-area:focus{
+    outline: none;
+}
+
+.form-btns-cont{
+    margin: 10px 0;
+    text-align: right;
+    padding: 4px 8px;
+}
+
+.form-blue-btn{
+    border: solid 2px var(--dark-gray);
+    color: white;
+    outline: none;
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.form-blue-btn{
+    outline: none;
+}
+
+
+.form-captcha-box{
+    text-align: center;
+}
+
+.form-captcha-inp{
+    border-radius: 5px;
+    padding: 4px 8px;
+    border: solid 1px var(--gray);
+    margin: 0 4px;
+}
+
+.no-overflow{
+    overflow: hidden;
+}
+
+.form-title-icon{
+    margin-right: 12px;
+    color: var(--red);
+}
+
+
+
+
+
+@media screen and (max-width: 750px){
+
+
+    .form-container{
+        display: grid;
+    }
+
+    .form-left-area{
+        text-align: center;
+        min-width: 100%;
+    }
+
+    .form-left-text{
+        display: none;
+    }
+
+    .form-right-area{
+        flex-grow: 2;
+        padding: 25px 5px;
+        margin-right: 0;
+        min-width: 280px;
+    }
+}
+

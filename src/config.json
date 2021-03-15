@@ -1,0 +1,50 @@
+{
+    "MAIN_TITLE": "MyAlbum",
+    "MAIN_URL": "http://localhost:3000",
+
+    "themes": [
+        "Classic",
+        "Classic2",
+        "Love",
+        "Classic Love",
+        "Aniversary",
+        "Classic Aniversary",
+        "Birthday",
+        "Classic Birthday"
+    ],
+    "cardColorsClasses": [
+        "aflr_red",
+        "bgms_gray",
+        "chnt_pink",
+        "diou_blue",
+        "ejpv_green",
+        "fkqw_blue2",
+        "glrx_yellow",
+        "hmsy_light-blue",
+        "intz_violet",
+        "joua_light-green"
+    ],
+
+
+    "Reg": {
+        "MinFnameLen": 2,
+        "MaxFnameLen": 16,
+        "MinLnameLen": 2,
+        "MaxLnameLen": 16,
+        "MinUsernameLen": 6,
+        "MaxUsernameLen": 32,
+        "MinPassLen": 6,
+        "MaxPassLen": 32
+    },
+
+    "trashDays": 30,
+
+
+    "maxAlbumNameLen": 64,
+
+    "apiUrl": "http://localhost:5000/api",
+    "SUPPORT_EMAIL": [
+        "support@techfacts007.in",
+        "shanuraj715@gmail.com"
+    ]
+}

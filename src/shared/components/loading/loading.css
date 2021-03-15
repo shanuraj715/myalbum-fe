@@ -1,0 +1,16 @@
+.loader-ts-cont{
+    padding: 80px 20px;
+    display: block;
+    min-width: 100%;
+    text-align: center;
+}
+
+.loader-inline-block{
+    display: inline-block;
+}
+
+.loader-loading-text{
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
